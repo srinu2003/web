@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome!</title>
+  <script type="module" src="./index.js"></script>
+  
+  <style>
+    :root {
+      font-family: 'Roboto', system-ui, sans-serif;
+    }
+    
+    label {
+      display: flex;
+      align-items: center;
+    }
+  </style>
 </head>
 <body>
-    Just tried it!(●'◡'●)
+  <label>
+    Material 3
+    <md-checkbox checked></md-checkbox>
+  </label>
+  
+  <md-outlined-button>Back</md-outlined-button>
+  <md-filled-button>Next</md-filled-button>
 </body>
-</html>
